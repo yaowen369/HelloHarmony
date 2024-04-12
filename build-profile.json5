@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/yaowen2021/.ohos/config/default_HarmonyCode_ux69gaNedcDIgcUKnyYdS9boWxX6DRXwXk1PEcCw6_A=.cer",
+          "storePassword": "0000001B14D166280203812114E3AA814AB0595F263D2F2553A34682EAB193531DDE5993E3592B07BF3697",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B42FF0EDC0C48422A99A33DCBBCA164CDD52FA63EC86E9654549B0978D17EC8624AA35E609D0116",
+          "profile": "/Users/yaowen2021/.ohos/config/default_HarmonyCode_ux69gaNedcDIgcUKnyYdS9boWxX6DRXwXk1PEcCw6_A=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yaowen2021/.ohos/config/default_HarmonyCode_ux69gaNedcDIgcUKnyYdS9boWxX6DRXwXk1PEcCw6_A=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

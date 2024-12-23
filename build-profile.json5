@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "/Users/yaowen2021/.ohos/config/default_HarmonyCode_ux69gaNedcDIgcUKnyYdS9boWxX6DRXwXk1PEcCw6_A=.cer",
-          "storePassword": "0000001B14D166280203812114E3AA814AB0595F263D2F2553A34682EAB193531DDE5993E3592B07BF3697",
+          "certpath": "/Users/yaowen2021/.ohos/config/default_HelloHarmony_QsAvB8eBzRy8wS_Ktpjz_nXDzUHP1tC0ebzxl2K0gok=.cer",
+          "storePassword": "0000001BF4D1FD868752E392BD96270359A22E1F76D83B00C9A27E44869CE6E6310554E4C2F026F8C179C6",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B42FF0EDC0C48422A99A33DCBBCA164CDD52FA63EC86E9654549B0978D17EC8624AA35E609D0116",
-          "profile": "/Users/yaowen2021/.ohos/config/default_HarmonyCode_ux69gaNedcDIgcUKnyYdS9boWxX6DRXwXk1PEcCw6_A=.p7b",
+          "keyPassword": "0000001B9D3B4E87D4E04BA9615A06F95B421DC63ED341406A412A8AF6E662872FF8430B30A806D828FA52",
+          "profile": "/Users/yaowen2021/.ohos/config/default_HelloHarmony_QsAvB8eBzRy8wS_Ktpjz_nXDzUHP1tC0ebzxl2K0gok=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/yaowen2021/.ohos/config/default_HarmonyCode_ux69gaNedcDIgcUKnyYdS9boWxX6DRXwXk1PEcCw6_A=.p12"
+          "storeFile": "/Users/yaowen2021/.ohos/config/default_HelloHarmony_QsAvB8eBzRy8wS_Ktpjz_nXDzUHP1tC0ebzxl2K0gok=.p12"
         }
       }
     ],
@@ -19,7 +19,6 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": "4.1.0(11)",
         "compatibleSdkVersion": "4.1.0(11)",
         "runtimeOS": "HarmonyOS",
       }
